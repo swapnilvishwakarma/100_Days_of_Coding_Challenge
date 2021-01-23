@@ -6,7 +6,7 @@ class Solution:
         ans = 1
         if 1 not in nums:
             return ans
-        for i in range(len(nums)):
+        for _ in range(len(nums)):
             if ans in nums:
                 ans += 1
         
